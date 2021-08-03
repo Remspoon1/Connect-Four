@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="description" content="Kenzie" />
+    <meta name="author" content="Kenzie" />
+    <meta name="keywords" content="Kenzie" />
+
+    <!-- Title Page-->
+    <title>Kenzie Group Project</title>
+
+    <!-- CSS-->
+    <link href="style.css" rel="stylesheet" media="all" />
+  </head>
+
+  <!-- ////////////////SECTION 1///////////////////// -->
+
+  <body>    
+    <header>
+      <div class='upper_header'>
+        <h1 class='title'>Kenzie Connect Four</h1>
+        <button class='reset_button' onclick='resetGame()'>Restart</button>
+      </div>
+      
+      <div class='panel'>
+        <h1 class='panel_title'>Current Player</h1>
+        <div class='panel_content'>
+          <div id='left'>
+            <h2 class='red_name current'>RED</h2>
+            <div class='disc_head red selected'></div>
+          </div>
+          <div id='right'>
+            <h2 class='blk_name'>BLACK</h2>
+            <div class='disc_head blk'></div>
+          </div>
+        </div>        
+      </div>
+    </header>
+    
+    <div class='grid' onclick='updateDataModel(event)'>
+      <div class='column'>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+      </div>
+      <div class='column'>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+      </div>
+      <div class='column'>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+      </div>
+      <div class='column'>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+      </div>
+      <div class='column'>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+      </div>
+      <div class='column'>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+      </div>
+      <div class='column'>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+        <div class='disc'></div>
+      </div>
+    </div>
+    
+    <script src="code.js"></script>    
+  </body>
+</html>
